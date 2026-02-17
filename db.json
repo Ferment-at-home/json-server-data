@@ -1,0 +1,159 @@
+{
+  "popular_Product": [
+    {
+      "name": "起司三重奏",
+      "description": "濃郁起司控必吃",
+      "6inchs_price": 240,
+      "8inchs_price": 330,
+      "12inchs_price": 480,
+      "id": "1"
+    },
+    {
+      "name": "夏威夷披薩",
+      "description": "鳳梨火腿甜鹹交織",
+      "6inchs_price": 260,
+      "8inchs_price": 350,
+      "12inchs_price": 520,
+      "id": "2"
+    },
+    {
+      "name": "瑪格麗特披薩",
+      "description": "蕃茄起司與羅勒香氣",
+      "6inchs_price": 280,
+      "8inchs_price": 380,
+      "12inchs_price": 560,
+      "id": "3"
+    },
+    {
+      "name": "全肉總匯",
+      "description": "牛肉香腸培根總匯",
+      "6inchs_price": 300,
+      "8inchs_price": 420,
+      "12inchs_price": 590,
+      "id": "4"
+    }
+  ],
+  "cart":[
+    {
+        "imag_Url":"",
+        "title":"夏威夷披薩",
+        "size":"6寸",
+        "price":240,
+        "num":1
+    },
+    {
+        "imag_Url":"",
+        "title":"瑪格麗特披薩",
+        "size":"12寸",
+        "price":560,
+        "num":1
+    },
+    {
+        "imag_Url":"",
+        "title":"全肉總匯",
+        "size":"8寸",
+        "price":420,
+        "num":1
+    }
+
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "orderNumber": "FAH202512201350",
+      "invoiceNumber": "VK82606137",
+      "orderCreatedAt": "2025-12-20 13:50",
+      "orderPaidAt": "2025-12-20 13:50",
+      "products": [
+        {
+          "id": 1,
+          "name": "夏威夷披薩",
+          "size": "6吋",
+          "price": 260,
+          "qty": 1,
+          "subtotal": 260
+        },
+        {
+          "id": 2,
+          "name": "瑪格麗特披薩",
+          "size": "12吋",
+          "price": 420,
+          "qty": 1,
+          "subtotal": 420
+        },
+        {
+          "id": 3,
+          "name": "全肉總匯",
+          "size": "8吋",
+          "price": 360,
+          "qty": 1,
+          "subtotal": 360
+        }
+      ],
+      "customer": {
+        "name": "Alice Hung",
+        "email": "alicehung@gmail.com",
+        "phone": "0987654321"
+      },
+      "shipping": {
+        "method": "7-11 超商取貨",
+        "store": "智取門市",
+        "address": "台東縣鳳凰區好吃鄉666號1樓"
+      },
+      "payment": {
+        "method": "信用卡",
+        "cardLast4": "8756"
+      },
+      "amount": {
+        "productsTotal": 1040,
+        "shippingFee": 100,
+        "grandTotal": 1140
+      }
+    },
+    {
+      "id": 2,
+      "orderNumber": "FAH202512211020",
+      "invoiceNumber": "VK93847261",
+      "orderCreatedAt": "2025-12-21 10:20",
+      "orderPaidAt": "2025-12-21 10:25",
+      "products": [
+        {
+          "id": 1,
+          "name": "海鮮總匯披薩",
+          "size": "12吋",
+          "price": 520,
+          "qty": 1,
+          "subtotal": 520
+        },
+        {
+          "id": 2,
+          "name": "煙燻雞肉披薩",
+          "size": "8吋",
+          "price": 380,
+          "qty": 2,
+          "subtotal": 760
+        }
+      ],
+      "customer": {
+        "name": "David Chen",
+        "email": "davidchen@gmail.com",
+        "phone": "0912345678"
+      },
+      "shipping": {
+        "method": "宅配到府",
+        "store": "",
+        "address": "台北市信義區松仁路100號10樓"
+      },
+      "payment": {
+        "method": "信用卡",
+        "cardLast4": "4321"
+      },
+      "amount": {
+        "productsTotal": 1280,
+        "shippingFee": 120,
+        "grandTotal": 1400
+      }
+    }
+  ]
+  
+}
