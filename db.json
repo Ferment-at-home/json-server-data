@@ -35,13 +35,15 @@
   ],
   "cart":[
     {
-        "imag_Url":"",
+      "id":1,  
+      "imag_Url":"",
         "title":"夏威夷披薩",
         "size":"6寸",
         "price":240,
         "num":1
     },
     {
+      "id":2, 
         "imag_Url":"",
         "title":"瑪格麗特披薩",
         "size":"12寸",
@@ -49,6 +51,7 @@
         "num":1
     },
     {
+      "id":3, 
         "imag_Url":"",
         "title":"全肉總匯",
         "size":"8寸",
