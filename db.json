@@ -31,38 +31,45 @@
       "8inchs_price": 420,
       "12inchs_price": 590,
       "id": "4"
+    },
+    {
+      "id": "5",
+      "name": "海鮮總匯",
+      "description": "干貝鮮蝦總匯",
+      "6inchs_price": 360,
+      "8inchs_price": 520,
+      "12inchs_price": 700
     }
   ],
-  "cart":[
+  "cart": [
     {
-      "id":1,  
-      "imag_Url":"",
-        "title":"夏威夷披薩",
-        "size":"6寸",
-        "price":240,
-        "num":1
+      "id": "1",
+      "imag_Url": "",
+      "title": "夏威夷披薩",
+      "size": "6寸",
+      "price": 240,
+      "num": 1
     },
     {
-      "id":2, 
-        "imag_Url":"",
-        "title":"瑪格麗特披薩",
-        "size":"12寸",
-        "price":560,
-        "num":1
+      "id": "2",
+      "imag_Url": "",
+      "title": "瑪格麗特披薩",
+      "size": "12寸",
+      "price": 560,
+      "num": 1
     },
     {
-      "id":3, 
-        "imag_Url":"",
-        "title":"全肉總匯",
-        "size":"8寸",
-        "price":420,
-        "num":1
+      "id": "3",
+      "imag_Url": "",
+      "title": "全肉總匯",
+      "size": "8寸",
+      "price": 420,
+      "num": 1
     }
-
   ],
   "orders": [
     {
-      "id": 1,
+      "id": "1",
       "orderNumber": "FAH202512201350",
       "invoiceNumber": "VK82606137",
       "orderCreatedAt": "2025-12-20 13:50",
@@ -114,7 +121,7 @@
       }
     },
     {
-      "id": 2,
+      "id": "2",
       "orderNumber": "FAH202512211020",
       "invoiceNumber": "VK93847261",
       "orderCreatedAt": "2025-12-21 10:20",
@@ -158,5 +165,4 @@
       }
     }
   ]
-  
 }
