@@ -164,5 +164,120 @@
         "grandTotal": 1400
       }
     }
+  ],
+  "sauces": [
+    {
+      "id": "1",
+      "title": "青醬",
+      "description": "羅勒香氣濃郁，適合海鮮",
+      "image": "../../assets/images/sauce-01.png"
+    },
+    {
+      "id": "2",
+      "title": "白醬",
+      "description": "奶香溫醇，適合雞肉",
+      "image": "../../assets/images/sauce-02.png"
+    },
+    {
+      "id": "3",
+      "title": "紅醬",
+      "description": "經典蕃茄酸甜，適合所有食材",
+      "image": "../../assets/images/sauce-03.png"
+    }
+  ],
+  "pizzaSizes": [
+    {
+      "id": "1",
+      "inches": "6寸",
+      "people": "適合 1-2 人",
+      "price": 80
+    },
+    {
+      "id": "2",
+      "inches": "8寸",
+      "people": "適合 3-4 人",
+      "price": 120
+    },
+    {
+      "id": "3",
+      "inches": "12寸",
+      "people": "適合 4-6 人",
+      "price": 150
+    }
+  ],
+  "pizzaCrusts": [
+    {
+      "id": "1",
+      "crust": "薄脆",
+      "description": "外酥內嫩",
+      "image": "/images/crust-thin.png"
+    },
+    {
+      "id": "2",
+      "crust": "厚Q",
+      "description": "扎實嚼勁",
+      "image": "/images/crust-thick.png"
+    },
+    {
+      "id": "3",
+      "crust": "芝心",
+      "description": "香濃牽絲",
+      "image": "/images/crust-cheese.png"
+    }
+  ],
+  "cheeseTypes": [
+    {
+      "id": "1",
+      "name": "莫札瑞拉",
+      "description": "經典不敗",
+      "image": "/images/cheese-mozzarella.png"
+    },
+    {
+      "id": "2",
+      "name": "切達",
+      "description": "香醇濃郁",
+      "image": "/images/cheese-cheddar.png"
+    },
+    {
+      "id": "3",
+      "name": "帕馬森",
+      "description": "鹹香風味",
+      "image": "/images/cheese-parmesan.png"
+    }
+  ],
+  "toppingCombos": [
+    {
+      "id": "1",
+      "name": "海陸雙拼",
+      "description": "大海與陸地的完美對話",
+      "price": 100,
+      "ingredients": [
+        { "name": "蛤蠣", "imgKey": "foodClams" },
+        { "name": "魷魚", "imgKey": "foodSquid" },
+        { "name": "蝦仁", "imgKey": "foodShrimp" }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "經典綜合",
+      "description": "人氣經典綜合好滋味",
+      "price": 120,
+      "ingredients": [
+        { "name": "蘑菇", "imgKey": "foodMushroom" },
+        { "name": "蝦仁", "imgKey": "foodShrimp" },
+        { "name": "培根", "imgKey": "foodBacon" }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "蔬食均衡",
+      "description": "清爽健康蔬菜一次滿足",
+      "price": 80,
+      "ingredients": [
+        { "name": "雞肉", "imgKey": "foodChicken" },
+        { "name": "蝦仁", "imgKey": "foodShrimp" },
+        { "name": "菠菜", "imgKey": "foodSpinach" }
+      ]
+    }
   ]
 }
