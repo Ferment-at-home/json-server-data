@@ -70,6 +70,7 @@
   "orders": [
     {
       "id": "1",
+      "status":"訂單成立",
       "orderNumber": "FAH202512201350",
       "invoiceNumber": "VK82606137",
       "orderCreatedAt": "2025-12-20 13:50",
@@ -122,6 +123,7 @@
     },
     {
       "id": "2",
+      "status":"配送中",
       "orderNumber": "FAH202512211020",
       "invoiceNumber": "VK93847261",
       "orderCreatedAt": "2025-12-21 10:20",
