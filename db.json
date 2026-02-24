@@ -3,6 +3,7 @@
     {
       "name": "起司三重奏",
       "description": "濃郁起司控必吃",
+      "quantity":1,
       "6inchs_price": 240,
       "8inchs_price": 280,
       "12inchs_price": 400,
@@ -11,6 +12,7 @@
     {
       "name": "夏威夷披薩",
       "description": "鳳梨火腿甜鹹交織",
+      "quantity":1,
       "6inchs_price": 220,
       "8inchs_price": 260,
       "12inchs_price": 390,
@@ -19,6 +21,7 @@
     {
       "name": "瑪格麗特披薩",
       "description": "蕃茄起司與羅勒香氣",
+      "quantity":1,
       "6inchs_price": 220,
       "8inchs_price": 260,
       "12inchs_price": 390,
@@ -27,18 +30,20 @@
     {
       "name": "全肉總匯披薩",
       "description": "牛肉香腸培根總匯",
+      "quantity":1,
       "6inchs_price": 250,
       "8inchs_price": 290,
       "12inchs_price": 420,
       "id": "4"
     },
     {
-      "id": "5",
       "name": "海鮮總匯披薩",
       "description": "干貝鮮蝦總匯",
+      "quantity":1,
       "6inchs_price": 260,
       "8inchs_price": 300,
-      "12inchs_price": 430
+      "12inchs_price": 430,
+      "id": "5"
     }
   ],
   "cart": [
