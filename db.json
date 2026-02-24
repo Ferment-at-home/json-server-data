@@ -1,49 +1,114 @@
 {
   "popular_Product": [
     {
-      "name": "起司三重奏",
+      "id":1,
+      "title": "起司三重奏",
       "description": "濃郁起司控必吃",
-      "quantity":1,
-      "6inchs_price": 240,
-      "8inchs_price": 280,
-      "12inchs_price": 400,
-      "id": "1"
+      "qty":1,
+      "size":[{
+        "id":1,
+        "inchs":"6寸",
+        "price":240
+      },
+      {
+        "id":2,
+        "inchs":"8寸",
+        "price":280
+      },
+      {
+        "id":3,
+        "inchs":"12寸",
+        "price":400
+      }
+    ]
     },
     {
-      "name": "夏威夷披薩",
+      "id":2,
+      "title": "夏威夷披薩",
       "description": "鳳梨火腿甜鹹交織",
-      "quantity":1,
-      "6inchs_price": 220,
-      "8inchs_price": 260,
-      "12inchs_price": 390,
-      "id": "2"
+      "qty":1,
+      "size":[{
+        "id":1,
+        "inchs":"6寸",
+        "price":220
+      },
+      {
+        "id":2,
+        "inchs":"8寸",
+        "price":260
+      },
+      {
+        "id":3,
+        "inchs":"12寸",
+        "price":390
+      }
+    ]
     },
     {
-      "name": "瑪格麗特披薩",
+      "id":3,
+      "title": "瑪格麗特披薩",
       "description": "蕃茄起司與羅勒香氣",
-      "quantity":1,
-      "6inchs_price": 220,
-      "8inchs_price": 260,
-      "12inchs_price": 390,
-      "id": "3"
+      "qty":1,
+      "size":[{
+        "id":1,
+        "inchs":"6寸",
+        "price":220
+      },
+      {
+        "id":2,
+        "inchs":"8寸",
+        "price":260
+      },
+      {
+        "id":3,
+        "inchs":"12寸",
+        "price":390
+      }
+    ]
     },
     {
-      "name": "全肉總匯披薩",
+      "id":4,
+      "title": "全肉總匯披薩",
       "description": "牛肉香腸培根總匯",
-      "quantity":1,
-      "6inchs_price": 250,
-      "8inchs_price": 290,
-      "12inchs_price": 420,
-      "id": "4"
+      "qty":1,
+      "size":[{
+        "id":1,
+        "inchs":"6寸",
+        "price":250
+      },
+      {
+        "id":2,
+        "inchs":"8寸",
+        "price":290
+      },
+      {
+        "id":3,
+        "inchs":"12寸",
+        "price":420
+      }
+    ]
     },
     {
-      "name": "海鮮總匯披薩",
+      "id":5,
+      "title": "海鮮總匯披薩",
       "description": "干貝鮮蝦總匯",
-      "quantity":1,
-      "6inchs_price": 260,
-      "8inchs_price": 300,
-      "12inchs_price": 430,
-      "id": "5"
+      "qty":1,
+      "size":[{
+        "id":1,
+        "inchs":"6寸",
+        "price":260
+      },
+      {
+        "id":2,
+        "inchs":"8寸",
+        "price":300
+      },
+      {
+        "id":3,
+        "inchs":"12寸",
+        "price":430
+      }
+    ]
     }
   ],
   "cart": [
