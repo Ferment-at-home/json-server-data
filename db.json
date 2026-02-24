@@ -111,6 +111,22 @@
       },
       "quantity": 1,
       "totalPrice": 160
+    },
+    {
+      "id": 3,
+      "productId": 1,
+      "title": "夏威夷披薩",
+      "size":"12吋",
+      "quantity": 1,
+      "totalPrice": 390
+    },
+    {
+      "id": 4,
+      "productId": 1,
+      "title": "海鮮總匯披薩",
+      "size":"8吋",
+      "quantity": 1,
+      "totalPrice": 300
     }
   ],
 
