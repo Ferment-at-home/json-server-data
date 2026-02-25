@@ -199,7 +199,12 @@
       "id": 3,
       "productId": 1,
       "title": "夏威夷披薩",
-      "size": "12吋",
+      "size": 
+        {
+          "id": 1,
+          "inchs": "12寸",
+          "price": 390
+        },
       "quantity": 1,
       "totalPrice": 390
     },
@@ -207,7 +212,12 @@
       "id": 4,
       "productId": 1,
       "title": "海鮮總匯披薩",
-      "size": "8吋",
+      "size": 
+        {
+          "id": 1,
+          "inchs": "8寸",
+          "price": 300
+        },
       "quantity": 1,
       "totalPrice": 300
     }
