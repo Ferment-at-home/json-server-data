@@ -1,114 +1,119 @@
 {
   "popular_Product": [
     {
-      "id":1,
+      "id": 1,
       "title": "起司三重奏",
       "description": "濃郁起司控必吃",
-      "qty":1,
-      "size":[{
-        "id":1,
-        "inchs":"6寸",
-        "price":240
-      },
-      {
-        "id":2,
-        "inchs":"8寸",
-        "price":280
-      },
-      {
-        "id":3,
-        "inchs":"12寸",
-        "price":400
-      }
-    ]
+      "quantity": 1,
+      "size": [
+        {
+          "id": 1,
+          "inchs": "6寸",
+          "price": 240
+        },
+        {
+          "id": 2,
+          "inchs": "8寸",
+          "price": 280
+        },
+        {
+          "id": 3,
+          "inchs": "12寸",
+          "price": 400
+        }
+      ]
     },
     {
-      "id":2,
+      "id": 2,
       "title": "夏威夷披薩",
       "description": "鳳梨火腿甜鹹交織",
-      "qty":1,
-      "size":[{
-        "id":1,
-        "inchs":"6寸",
-        "price":220
-      },
-      {
-        "id":2,
-        "inchs":"8寸",
-        "price":260
-      },
-      {
-        "id":3,
-        "inchs":"12寸",
-        "price":390
-      }
-    ]
+      "quantity": 1,
+      "size": [
+        {
+          "id": 1,
+          "inchs": "6寸",
+          "price": 220
+        },
+        {
+          "id": 2,
+          "inchs": "8寸",
+          "price": 260
+        },
+        {
+          "id": 3,
+          "inchs": "12寸",
+          "price": 390
+        }
+      ]
     },
     {
-      "id":3,
+      "id": 3,
       "title": "瑪格麗特披薩",
       "description": "蕃茄起司與羅勒香氣",
-      "qty":1,
-      "size":[{
-        "id":1,
-        "inchs":"6寸",
-        "price":220
-      },
-      {
-        "id":2,
-        "inchs":"8寸",
-        "price":260
-      },
-      {
-        "id":3,
-        "inchs":"12寸",
-        "price":390
-      }
-    ]
+      "quantity": 1,
+      "size": [
+        {
+          "id": 1,
+          "inchs": "6寸",
+          "price": 220
+        },
+        {
+          "id": 2,
+          "inchs": "8寸",
+          "price": 260
+        },
+        {
+          "id": 3,
+          "inchs": "12寸",
+          "price": 390
+        }
+      ]
     },
     {
-      "id":4,
+      "id": 4,
       "title": "全肉總匯披薩",
       "description": "牛肉香腸培根總匯",
-      "qty":1,
-      "size":[{
-        "id":1,
-        "inchs":"6寸",
-        "price":250
-      },
-      {
-        "id":2,
-        "inchs":"8寸",
-        "price":290
-      },
-      {
-        "id":3,
-        "inchs":"12寸",
-        "price":420
-      }
-    ]
+      "quantity": 1,
+      "size": [
+        {
+          "id": 1,
+          "inchs": "6寸",
+          "price": 250
+        },
+        {
+          "id": 2,
+          "inchs": "8寸",
+          "price": 290
+        },
+        {
+          "id": 3,
+          "inchs": "12寸",
+          "price": 420
+        }
+      ]
     },
     {
-      "id":5,
+      "id": 5,
       "title": "海鮮總匯披薩",
       "description": "干貝鮮蝦總匯",
-      "qty":1,
-      "size":[{
-        "id":1,
-        "inchs":"6寸",
-        "price":260
-      },
-      {
-        "id":2,
-        "inchs":"8寸",
-        "price":300
-      },
-      {
-        "id":3,
-        "inchs":"12寸",
-        "price":430
-      }
-    ]
+      "quantity": 1,
+      "size": [
+        {
+          "id": 1,
+          "inchs": "6寸",
+          "price": 260
+        },
+        {
+          "id": 2,
+          "inchs": "8寸",
+          "price": 300
+        },
+        {
+          "id": 3,
+          "inchs": "12寸",
+          "price": 430
+        }
+      ]
     }
   ],
   "cart": [
@@ -140,7 +145,11 @@
         "combo": {
           "id": 1,
           "name": "海鮮派對",
-          "items": ["蛤蠣", "魷魚", "蝦仁"],
+          "items": [
+            "蛤蠣",
+            "魷魚",
+            "蝦仁"
+          ],
           "price": 120
         }
       },
@@ -175,7 +184,11 @@
         "combo": {
           "id": 1,
           "name": "營養均衡",
-          "items": ["雞肉", "蝦仁", "菠菜"],
+          "items": [
+            "雞肉",
+            "蝦仁",
+            "菠菜"
+          ],
           "price": 80
         }
       },
@@ -186,7 +199,7 @@
       "id": 3,
       "productId": 1,
       "title": "夏威夷披薩",
-      "size":"12吋",
+      "size": "12吋",
       "quantity": 1,
       "totalPrice": 390
     },
@@ -194,17 +207,15 @@
       "id": 4,
       "productId": 1,
       "title": "海鮮總匯披薩",
-      "size":"8吋",
+      "size": "8吋",
       "quantity": 1,
       "totalPrice": 300
     }
   ],
-
-
   "orders": [
     {
       "id": "1",
-      "status":"訂單成立",
+      "status": "訂單成立",
       "orderNumber": "FAH202512201350",
       "invoiceNumber": "VK82606137",
       "orderCreatedAt": "2025-12-20 13:50",
@@ -257,7 +268,7 @@
     },
     {
       "id": "2",
-      "status":"配送中",
+      "status": "配送中",
       "orderNumber": "FAH202512211020",
       "invoiceNumber": "VK93847261",
       "orderCreatedAt": "2025-12-21 10:20",
@@ -302,7 +313,7 @@
     },
     {
       "id": "3",
-      "status":"已到貨",
+      "status": "已到貨",
       "orderNumber": "FAH202512211023",
       "invoiceNumber": "VK93847233",
       "orderCreatedAt": "2026-02-14 14:20",
@@ -311,7 +322,7 @@
         {
           "id": 1,
           "name": "客製化披薩",
-          "content":"青醬、薄脆、帕馬森、經典組合",
+          "content": "青醬、薄脆、帕馬森、經典組合",
           "size": "12吋",
           "price": 250,
           "qty": 1,
@@ -444,9 +455,18 @@
         "description": "大海與陸地的完美對話",
         "price": 120,
         "ingredients": [
-          { "name": "蛤蠣", "imgKey": "foodClams" },
-          { "name": "魷魚", "imgKey": "foodSquid" },
-          { "name": "蝦仁", "imgKey": "foodShrimp" }
+          {
+            "name": "蛤蠣",
+            "imgKey": "foodClams"
+          },
+          {
+            "name": "魷魚",
+            "imgKey": "foodSquid"
+          },
+          {
+            "name": "蝦仁",
+            "imgKey": "foodShrimp"
+          }
         ]
       },
       {
@@ -455,9 +475,18 @@
         "description": "人氣經典綜合好滋味",
         "price": 100,
         "ingredients": [
-          { "name": "蘑菇", "imgKey": "foodMushroom" },
-          { "name": "蝦仁", "imgKey": "foodShrimp" },
-          { "name": "培根", "imgKey": "foodBacon" }
+          {
+            "name": "蘑菇",
+            "imgKey": "foodMushroom"
+          },
+          {
+            "name": "蝦仁",
+            "imgKey": "foodShrimp"
+          },
+          {
+            "name": "培根",
+            "imgKey": "foodBacon"
+          }
         ]
       },
       {
@@ -466,9 +495,18 @@
         "description": "清爽健康蔬菜一次滿足",
         "price": 80,
         "ingredients": [
-          { "name": "雞肉", "imgKey": "foodChicken" },
-          { "name": "蝦仁", "imgKey": "foodShrimp" },
-          { "name": "菠菜", "imgKey": "foodSpinach" }
+          {
+            "name": "雞肉",
+            "imgKey": "foodChicken"
+          },
+          {
+            "name": "蝦仁",
+            "imgKey": "foodShrimp"
+          },
+          {
+            "name": "菠菜",
+            "imgKey": "foodSpinach"
+          }
         ]
       }
     ]
